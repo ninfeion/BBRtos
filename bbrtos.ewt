@@ -176,6 +176,9 @@
       <name>$PROJ_DIR$\Users\Startup\core_cm3.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Users\Startup\startup_stm32f10x_md.s</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Users\Startup\system_stm32f10x.c</name>
     </file>
   </group>
@@ -188,28 +191,85 @@
       <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_adc.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_bkp.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_can.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_cec.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_crc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dac.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dbgmcu.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_dma.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_exti.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_flash.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_fsmc.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_gpio.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_i2c.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_iwdg.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_pwr.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_rcc.c</name>
     </file>
     <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_rtc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_sdio.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_spi.c</name>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_tim.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_usart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\Stm32f10x_StdDrivers\Lib\src\stm32f10x_wwdg.c</name>
     </file>
   </group>
   <group>
     <name>User</name>
     <group>
-      <name>Drivers</name>
+      <name>Cfg</name>
       <file>
-        <name>$PROJ_DIR$\Users\delay.c</name>
+        <name>$PROJ_DIR$\Users\stm32f10x_conf.h</name>
       </file>
+    </group>
+    <group>
+      <name>Drivers</name>
     </group>
     <file>
       <name>$PROJ_DIR$\Users\main.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Users\os_m3_sch.s</name>
     </file>
     <file>
       <name>$PROJ_DIR$\Users\systeminit.c</name>
